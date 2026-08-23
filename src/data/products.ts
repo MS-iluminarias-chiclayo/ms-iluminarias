@@ -36,7 +36,7 @@ export const products: Product[] = [
     badge: 'Oferta',
     description: 'Lámpara colgante LED de diseño ondulado en acabado cromado, un punto focal elegante para comedores y barras.',
     features: ['LED integrado', 'Cable ajustable', 'Ancho 50cm', 'Acabado cromado'],
-    image: '/productos/lam_wave_chrome_738.jpg',
+    image: 'productos/lam_wave_chrome_738.jpg',
   },
   {
     id: 'lam-6582',
@@ -47,7 +47,7 @@ export const products: Product[] = [
     sku: 'LMP-6582',
     description: 'Lámpara de techo LED de montaje directo con diseño ondulado entrelazado, ideal para salas y dormitorios.',
     features: ['Montaje directo a techo', 'LED integrado', 'Diámetro 53cm', 'Diseño ondulado moderno'],
-    image: '/productos/lam_wave_ceiling_6582.jpg',
+    image: 'productos/lam_wave_ceiling_6582.jpg',
   },
   {
     id: 'lam-ring1',
@@ -59,7 +59,7 @@ export const products: Product[] = [
     badge: 'Nuevo',
     description: 'Araña LED con anillos superpuestos en acabado dorado, aporta un toque sofisticado a comedores.',
     features: ['3 anillos LED dorados', 'Altura ajustable', 'Regulable', 'Ideal para comedor'],
-    image: '/productos/lam_ring_cluster_gold_a.jpg',
+    image: 'productos/lam_ring_cluster_gold_a.jpg',
   },
   {
     id: 'lam-inf1',
@@ -70,7 +70,7 @@ export const products: Product[] = [
     sku: 'LMP-INF1',
     description: 'Lámpara colgante con diseño de lazo infinito en acabado dorado, ideal para salas y comedores modernos.',
     features: ['Diseño infinito entrelazado', 'Acabado dorado', 'LED integrado', 'Ideal para sala o comedor'],
-    image: '/productos/lam_infinity_gold_wood_a.jpg',
+    image: 'productos/lam_infinity_gold_wood_a.jpg',
   },
   {
     id: 'lam-waveb',
@@ -82,7 +82,7 @@ export const products: Product[] = [
     badge: 'Más vendido',
     description: 'Lámpara colgante LED con doble onda entrelazada en acabado negro mate, un diseño contemporáneo y llamativo.',
     features: ['Acabado negro mate', 'Diseño doble onda', 'LED integrado', 'Cable ajustable'],
-    image: '/productos/lam_wave_black_a.jpg',
+    image: 'productos/lam_wave_black_a.jpg',
   },
   {
     id: 'lam-circ1',
@@ -93,7 +93,7 @@ export const products: Product[] = [
     sku: 'LMP-CIRC1',
     description: 'Lámpara colgante circular en acabado dorado, diseño minimalista ideal sobre mesas de comedor.',
     features: ['Anillo LED dorado', 'Diseño minimalista', 'Ideal para mesa de comedor', 'LED integrado'],
-    image: '/productos/lam_circle_gold_dining.jpg',
+    image: 'productos/lam_circle_gold_dining.jpg',
   },
   {
     id: 'lam-wall1',
@@ -104,7 +104,7 @@ export const products: Product[] = [
     sku: 'LMP-WALL1',
     description: 'Aplique de pared con forma de lazo infinito en acabado dorado, ideal como luz decorativa de acento.',
     features: ['Instalación a pared', 'Acabado dorado', 'LED integrado', 'Diseño en forma de 8'],
-    image: '/productos/lam_wall_infinity_gold.jpg',
+    image: 'productos/lam_wall_infinity_gold.jpg',
   },
   {
     id: 'lam-swirl1',
@@ -115,7 +115,7 @@ export const products: Product[] = [
     sku: 'LMP-SWIRL1',
     description: 'Lámpara colgante con diseño espiral entrelazado en acabado dorado, elegante y llamativa para comedores.',
     features: ['Diseño espiral entrelazado', 'Acabado dorado', 'LED integrado', 'Regulable'],
-    image: '/productos/lam_swirl_gold_dining.jpg',
+    image: 'productos/lam_swirl_gold_dining.jpg',
   },
   {
     id: 'lam-6877',
@@ -127,7 +127,7 @@ export const products: Product[] = [
     badge: 'Nuevo',
     description: 'Barra de techo con cascada de anillos LED dorados en distintas alturas, ideal para mesas largas de comedor.',
     features: ['7 anillos LED en cascada', 'Ancho 90cm', 'Barra de techo incluida', 'Ideal para mesas largas'],
-    image: '/productos/lam_ring_cluster_6877_90cm.jpg',
+    image: 'productos/lam_ring_cluster_6877_90cm.jpg',
   },
   {
     id: 'lam-linear1',
@@ -138,7 +138,7 @@ export const products: Product[] = [
     sku: 'LMP-LINEAR1',
     description: 'Lámpara colgante lineal con diseño ondulado en acabado dorado, perfecta para barras y comedores largos.',
     features: ['Diseño lineal ondulado', 'Acabado dorado', 'LED integrado', 'Ideal para barras y comedores largos'],
-    image: '/productos/lam_linear_wave_wide.jpg',
+    image: 'productos/lam_linear_wave_wide.jpg',
   },
   {
     id: 'lam-zeia1',
@@ -149,7 +149,7 @@ export const products: Product[] = [
     sku: 'LMP-ZEIA1',
     description: 'Lámpara colgante compacta con diseño de lazo infinito en acabado dorado, ideal para espacios reducidos.',
     features: ['Diseño infinito compacto', 'Acabado dorado', 'LED integrado', 'Ideal para espacios pequeños'],
-    image: '/productos/lam_zeia_gold_infinity.jpg',
+    image: 'productos/lam_zeia_gold_infinity.jpg',
   },
 
   // ---------- LÁMPARAS: focos de riel, plafones y apliques cubo ----------
@@ -162,7 +162,7 @@ export const products: Product[] = [
     sku: 'FRL-001',
     description: 'Foco de riel orientable de 30W con lente difusor incorporado, ideal para iluminar vitrinas y productos.',
     features: ['Potencia 30W', 'Lente difusor incorporado', 'Giro 360°', 'Compatible con riel estándar'],
-    image: '/productos/foco_riel_individual_30w.jpg',
+    image: 'productos/foco_riel_individual_30w.jpg',
   },
   {
     id: 'lam-frl002',
@@ -173,7 +173,7 @@ export const products: Product[] = [
     sku: 'FRL-002',
     description: 'Foco de riel con adaptador incluido y giro de 360°, ideal para exhibidores y tiendas.',
     features: ['Adaptador de riel incluido', 'Giro 360°', 'Acabado negro', 'Ideal para tiendas y exhibidores'],
-    image: '/productos/foco_riel_adaptador.jpg',
+    image: 'productos/foco_riel_adaptador.jpg',
   },
   {
     id: 'lam-frl003',
@@ -185,7 +185,7 @@ export const products: Product[] = [
     badge: 'Más vendido',
     description: 'Kit de 3 focos orientables sobre riel, listo para instalar en vitrinas, tiendas o espacios comerciales.',
     features: ['Incluye 3 focos orientables', 'Ideal para vitrinas y tiendas', 'Acabado negro mate', 'Instalación en riel'],
-    image: '/productos/foco_riel_tienda_3luces.jpg',
+    image: 'productos/foco_riel_tienda_3luces.jpg',
   },
   {
     id: 'lam-plf001',
@@ -196,7 +196,7 @@ export const products: Product[] = [
     sku: 'PLF-001',
     description: 'Plafón LED circular de bajo perfil con luz uniforme, fácil de instalar directo al techo.',
     features: ['Instalación directa a techo', 'Luz blanca uniforme', 'Diseño minimalista', 'Bajo perfil'],
-    image: '/productos/plafon_redondo_blanco_solo.jpg',
+    image: 'productos/plafon_redondo_blanco_solo.jpg',
   },
   {
     id: 'lam-plf002',
@@ -207,7 +207,7 @@ export const products: Product[] = [
     sku: 'PLF-002',
     description: 'Plafón LED circular ideal para dormitorios, con luz uniforme y diseño discreto.',
     features: ['Instalación directa a techo', 'Ideal para dormitorios', 'Luz blanca uniforme', 'Bajo perfil'],
-    image: '/productos/plafon_redondo_blanco_dormitorio.jpg',
+    image: 'productos/plafon_redondo_blanco_dormitorio.jpg',
   },
   {
     id: 'lam-plf003',
@@ -218,7 +218,7 @@ export const products: Product[] = [
     sku: 'PLF-003',
     description: 'Plafón LED cuadrado de diseño moderno, ideal para dormitorios y salas con acabados contemporáneos.',
     features: ['Diseño cuadrado moderno', 'Instalación directa a techo', 'Luz blanca uniforme', 'Bajo perfil'],
-    image: '/productos/plafon_cuadrado_blanco_dormitorio.jpg',
+    image: 'productos/plafon_cuadrado_blanco_dormitorio.jpg',
   },
   {
     id: 'lam-apl001',
@@ -229,7 +229,7 @@ export const products: Product[] = [
     sku: 'APL-001',
     description: 'Aplique cubo con luz hacia arriba y abajo en acabado negro, ideal para interiores y exteriores.',
     features: ['Luz hacia arriba y abajo', 'Acabado negro', 'Ideal para exteriores e interiores', 'Diseño cubo compacto'],
-    image: '/productos/aplique_cubo_negro_cruz.jpg',
+    image: 'productos/aplique_cubo_negro_cruz.jpg',
   },
   {
     id: 'lam-apl002',
@@ -240,7 +240,7 @@ export const products: Product[] = [
     sku: 'APL-002',
     description: 'Aplique cubo compacto con luz hacia arriba y abajo, perfecto para pasillos y espacios de tránsito.',
     features: ['Luz hacia arriba y abajo', 'Acabado negro', 'Ideal para pasillos', 'Diseño cubo compacto'],
-    image: '/productos/aplique_cubo_negro_pasillo.jpg',
+    image: 'productos/aplique_cubo_negro_pasillo.jpg',
   },
   {
     id: 'lam-apl003',
@@ -251,7 +251,7 @@ export const products: Product[] = [
     sku: 'APL-003',
     description: 'Aplique cubo en acabado blanco con luz hacia arriba y abajo, se integra con acabados claros.',
     features: ['Luz hacia arriba y abajo', 'Acabado blanco', 'Diseño cubo compacto', 'Ideal para interiores'],
-    image: '/productos/aplique_cubo_blanco_pared.jpg',
+    image: 'productos/aplique_cubo_blanco_pared.jpg',
   },
   {
     id: 'lam-apl004',
@@ -264,7 +264,7 @@ export const products: Product[] = [
     badge: 'Oferta',
     description: 'Set de 3 apliques cubo en negro, ideales para iluminar fachadas o muros largos con un patrón repetido.',
     features: ['Incluye 3 unidades', 'Luz hacia arriba y abajo', 'Acabado negro', 'Ideal para fachadas'],
-    image: '/productos/aplique_cubo_negro_trio.jpg',
+    image: 'productos/aplique_cubo_negro_trio.jpg',
   },
   {
     id: 'lam-apl005',
@@ -276,7 +276,7 @@ export const products: Product[] = [
     badge: 'Nuevo',
     description: 'Aplique rectangular bicolor con luz difusa uniforme, aporta un toque moderno a dormitorios y salas.',
     features: ['Diseño bicolor blanco y negro', 'Luz difusa uniforme', 'Ideal para dormitorios y salas', 'Fácil instalación'],
-    image: '/productos/aplique_pared_blanco_negro.jpg',
+    image: 'productos/aplique_pared_blanco_negro.jpg',
   },
 
   // ---------- LÁMPARAS: colgantes de ratán/bambú artesanal ----------
@@ -289,7 +289,7 @@ export const products: Product[] = [
     sku: 'RAT-001',
     description: 'Lámpara colgante artesanal de ratán tejido en forma de campana, aporta calidez de estilo natural.',
     features: ['Diámetro 30cm', 'Estructura de ratán natural tejido', 'Casquillo E27', 'Estilo boho/rústico'],
-    image: '/productos/colgante_ratan_campana_30cm.jpg',
+    image: 'productos/colgante_ratan_campana_30cm.jpg',
   },
   {
     id: 'lam-rat002',
@@ -301,7 +301,7 @@ export const products: Product[] = [
     badge: 'Nuevo',
     description: 'Trío de lámparas colgantes cilíndricas de ratán tejido a mano, a distintas alturas, ideal sobre barras de cocina.',
     features: ['3 pantallas de ratán tejido', 'Alturas escalonadas', 'Casquillo E27 cada una', 'Ideal para cocinas y barras'],
-    image: '/productos/colgante_ratan_trio_m08.jpg',
+    image: 'productos/colgante_ratan_trio_m08.jpg',
   },
   {
     id: 'lam-rat003',
@@ -312,7 +312,7 @@ export const products: Product[] = [
     sku: 'RAT-003',
     description: 'Trío de lámparas colgantes hexagonales de ratán tejido, con alturas escalonadas para un efecto visual natural.',
     features: ['3 pantallas de ratán tejido hexagonal', 'Alturas escalonadas', 'Casquillo E27 cada una', 'Estilo natural'],
-    image: '/productos/colgante_ratan_trio_m12.jpg',
+    image: 'productos/colgante_ratan_trio_m12.jpg',
   },
   {
     id: 'lam-rat004',
@@ -323,7 +323,7 @@ export const products: Product[] = [
     sku: 'RAT-004',
     description: 'Lámpara colgante de diseño asimétrico con base de madera natural y pantalla de ratán tejido a mano.',
     features: ['Base de madera natural', 'Pantalla de ratán tejido a mano', 'Casquillo E27', 'Ancho 500mm'],
-    image: '/productos/colgante_ratan_madera_c996.jpg',
+    image: 'productos/colgante_ratan_madera_c996.jpg',
   },
   {
     id: 'lam-rat005',
@@ -334,7 +334,7 @@ export const products: Product[] = [
     sku: 'RAT-005',
     description: 'Lámpara colgante de ratán con forma geométrica de diamante, tejida artesanalmente.',
     features: ['Forma geométrica diamante', 'Altura 30cm', 'Casquillo E27', 'Tejido artesanal'],
-    image: '/productos/colgante_ratan_diamante_c739.jpg',
+    image: 'productos/colgante_ratan_diamante_c739.jpg',
   },
   {
     id: 'lam-rat006',
@@ -345,7 +345,7 @@ export const products: Product[] = [
     sku: 'RAT-006',
     description: 'Lámpara colgante de ratán en forma de platillo amplio, ideal para mesas de comedor.',
     features: ['Diseño platillo/plato', 'Diámetro 400mm', 'Casquillo E27', 'Tejido artesanal amplio'],
-    image: '/productos/colgante_ratan_platillo_c1031.jpg',
+    image: 'productos/colgante_ratan_platillo_c1031.jpg',
   },
   {
     id: 'lam-rat007',
@@ -356,7 +356,7 @@ export const products: Product[] = [
     sku: 'RAT-007',
     description: 'Lámpara colgante tipo tambor de ratán tejido, suspendida con soga decorativa de estilo rústico.',
     features: ['Colgado con soga decorativa', 'Diámetro 35cm', 'Casquillo E27', 'Estilo rústico'],
-    image: '/productos/colgante_ratan_soga_tambor.jpg',
+    image: 'productos/colgante_ratan_soga_tambor.jpg',
   },
   {
     id: 'lam-rat008',
@@ -367,7 +367,7 @@ export const products: Product[] = [
     sku: 'RAT-008',
     description: 'Lámpara colgante de ratán natural en forma de barril, aporta un toque boho a cualquier ambiente.',
     features: ['Forma de barril', 'Tejido de ratán natural', 'Casquillo E27', 'Estilo boho'],
-    image: '/productos/colgante_ratan_barril.jpg',
+    image: 'productos/colgante_ratan_barril.jpg',
   },
   {
     id: 'lam-rat009',
@@ -380,7 +380,7 @@ export const products: Product[] = [
     badge: 'Oferta',
     description: 'Lámpara colgante de ratán con diseño de capas escalonadas, un estilo japandi limpio y natural.',
     features: ['Diseño de capas escalonadas', 'Tejido de ratán natural', 'Casquillo E27', 'Estilo japandi'],
-    image: '/productos/colgante_ratan_capas_c824.jpg',
+    image: 'productos/colgante_ratan_capas_c824.jpg',
   },
 
   // ---------- LÁMPARAS: kits de riel para tiendas y exhibidores ----------
@@ -394,7 +394,7 @@ export const products: Product[] = [
     badge: 'Más vendido',
     description: 'Kit completo de riel de 2 metros con 6 focos orientables en acabado negro, listo para instalar en tiendas.',
     features: ['Riel de 2 metros', 'Incluye 6 focos orientables', 'Acabado negro', 'Ideal para tiendas y exhibidores'],
-    image: '/productos/kit_riel_negro_2m.jpg',
+    image: 'productos/kit_riel_negro_2m.jpg',
   },
   {
     id: 'lam-kitb',
@@ -405,7 +405,7 @@ export const products: Product[] = [
     sku: 'KIT-RIEL-B',
     description: 'Kit completo de riel de 2 metros con 6 focos orientables en acabado blanco, listo para instalar en tiendas.',
     features: ['Riel de 2 metros', 'Incluye 6 focos orientables', 'Acabado blanco', 'Ideal para tiendas y exhibidores'],
-    image: '/productos/kit_riel_blanco_2m.jpg',
+    image: 'productos/kit_riel_blanco_2m.jpg',
   },
 
   // ---------- INTERRUPTORES ----------
@@ -609,7 +609,7 @@ export const products: Product[] = [
     sku: 'TOM-CB-01',
     description: 'Tomacorriente doble de línea premium en acabado dorado con marco color crema, para acabados elegantes.',
     features: ['Doble toma universal', 'Marco color crema', 'Acabado dorado', 'Línea premium cubull'],
-    image: '/productos/tomacorriente_dorado.jpg',
+    image: 'productos/tomacorriente_dorado.jpg',
   },
   {
     id: 'tom-cb02',
@@ -621,7 +621,7 @@ export const products: Product[] = [
     badge: 'Nuevo',
     description: 'Tomacorriente doble con placa de vidrio templado negro y marco plateado, un acabado moderno y elegante.',
     features: ['Doble toma universal', 'Placa de vidrio templado', 'Acabado negro brillante', 'Línea premium cubull'],
-    image: '/productos/tomacorriente_negro_vidrio.jpg',
+    image: 'productos/tomacorriente_negro_vidrio.jpg',
   },
   {
     id: 'tom-cb03',
@@ -632,7 +632,7 @@ export const products: Product[] = [
     sku: 'TOM-CB-03',
     description: 'Tomacorriente doble con marco metálico cepillado en tono champán, combina con acabados cálidos.',
     features: ['Doble toma universal', 'Marco metálico cepillado', 'Acabado champán', 'Línea premium cubull'],
-    image: '/productos/tomacorriente_champan_cepillado.jpg',
+    image: 'productos/tomacorriente_champan_cepillado.jpg',
   },
   {
     id: 'tom-cb04',
@@ -643,7 +643,7 @@ export const products: Product[] = [
     sku: 'TOM-CB-04',
     description: 'Tomacorriente doble con marco metálico cepillado en tono gris plata, de línea moderna y versátil.',
     features: ['Doble toma universal', 'Marco metálico cepillado', 'Acabado gris plata', 'Línea premium cubull'],
-    image: '/productos/tomacorriente_gris_cepillado.jpg',
+    image: 'productos/tomacorriente_gris_cepillado.jpg',
   },
   {
     id: 'tom-cb05',
@@ -655,7 +655,7 @@ export const products: Product[] = [
     badge: 'Nuevo',
     description: 'Tomacorriente doble con marco en textura de madera, ideal para ambientes rústicos o cálidos.',
     features: ['Doble toma universal', 'Marco con textura de madera', 'Diseño decorativo', 'Línea premium cubull'],
-    image: '/productos/tomacorriente_madera.jpg',
+    image: 'productos/tomacorriente_madera.jpg',
   },
   {
     id: 'tom-cb06',
@@ -667,7 +667,7 @@ export const products: Product[] = [
     badge: 'Más vendido',
     description: 'Tomacorriente doble minimalista en acabado blanco, se integra con cualquier ambiente.',
     features: ['Doble toma universal', 'Diseño minimalista', 'Acabado blanco', 'Línea premium cubull'],
-    image: '/productos/tomacorriente_blanco.jpg',
+    image: 'productos/tomacorriente_blanco.jpg',
   },
 ]
 

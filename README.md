@@ -2,6 +2,14 @@
 
 Sitio web catálogo para vender lámparas, interruptores, focos y tomacorrientes, con carrito de compras y checkout por WhatsApp.
 
+## Ver el sitio publicado
+
+El sitio se publica automáticamente en GitHub Pages cada vez que se sube un cambio a este repositorio:
+
+**https://rociozunigaperalta15-code.github.io/ms-iluminarias/**
+
+Si el link todavía no carga, es porque falta activar GitHub Pages una sola vez: entra al repositorio en GitHub → **Settings** → **Pages** (menú de la izquierda) → en "Build and deployment", en **Source** elige **GitHub Actions**. Después de eso, cada cambio que se suba se publica solo en 1-2 minutos (puedes ver el progreso en la pestaña **Actions** del repositorio).
+
 ## Desarrollo
 
 ```bash
