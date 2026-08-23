@@ -13,12 +13,29 @@ type ProductImageProps = {
   category: CategoryId
   className?: string
   iconClassName?: string
+  image?: string
+  alt?: string
 }
 
-export default function ProductImage({ category, className = '', palette = 0, iconClassName = '' }: ProductImageProps & { palette?: number }) {
+export default function ProductImage({
+  category,
+  className = '',
+  palette = 0,
+  iconClassName = '',
+  image,
+  alt = '',
+}: ProductImageProps & { palette?: number }) {
   const cat = categoryMap[category]
   const Icon = cat.icon
   const gradient = PALETTES[palette % PALETTES.length]
+
+  if (image) {
+    return (
+      <div className={`relative overflow-hidden bg-porcelain ${className}`}>
+        <img src={image} alt={alt} className="h-full w-full object-cover" loading="lazy" />
+      </div>
+    )
+  }
 
   return (
     <div className={`relative flex items-center justify-center overflow-hidden bg-gradient-to-br ${gradient} ${className}`}>

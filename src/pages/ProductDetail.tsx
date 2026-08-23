@@ -34,6 +34,8 @@ export default function ProductDetail() {
         <ProductImage
           category={product.category}
           palette={product.palette}
+          image={product.image}
+          alt={product.name}
           className="aspect-square w-full rounded-2xl"
           iconClassName="h-28 w-28"
         />

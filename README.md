@@ -28,29 +28,34 @@ Edita `src/data/products.ts`. Cada producto tiene:
 
 ```ts
 {
-  id: 'lam-001',
-  slug: 'lampara-colgante-industrial-negra', // usado en la URL /producto/:slug
-  name: 'Lámpara Colgante Industrial Negra',
+  id: 'lam-738',
+  slug: 'lampara-colgante-led-ola-cromada-50cm', // usado en la URL /producto/:slug
+  name: 'Lámpara Colgante LED Ola Cromada 50cm',
   category: 'lamparas', // 'lamparas' | 'interruptores' | 'focos' | 'tomacorrientes'
-  price: 89.9,
-  oldPrice: 119.9, // opcional, para mostrar descuento
-  sku: 'LMP-001',
+  price: 179.9,
+  oldPrice: 219.9, // opcional, para mostrar descuento
+  sku: 'LMP-738',
   badge: 'Oferta', // opcional: 'Nuevo' | 'Oferta' | 'Más vendido'
   description: '...',
   features: ['...'],
-  palette: 0, // 0-5, color de fondo del placeholder visual
+  image: '/productos/lam_wave_chrome_738.jpg', // opcional, foto real (ver sección 3)
 }
 ```
 
-Los precios y productos actuales son **de ejemplo** — reemplázalos por tu inventario real.
+**Para editar precios sin instalar nada:** entra al repositorio en GitHub, abre `src/data/products.ts`, haz clic en el ícono de lápiz (editar), busca el producto y cambia el número de `price` (y `oldPrice` si quieres mostrar un precio tachado). Al guardar ("Commit changes") el sitio se reconstruye solo. También puedes agregar productos nuevos copiando el bloque `{ ... }` de otro producto y cambiando sus datos — o simplemente pedírmelo a mí cuando quieras.
+
+Los productos de interruptores y focos siguen siendo de ejemplo (sin foto real todavía) — reemplázalos por tu inventario real cuando tengas los datos y fotos.
 
 ### 3. Fotos reales de productos
 
-Por ahora cada producto usa un ícono decorativo como marcador visual (`src/components/ProductImage.tsx`), ya que no se contaba con fotografías reales. Para usar fotos reales:
+Los productos de **lámparas** y **tomacorrientes** ya usan fotos reales del catálogo del proveedor, guardadas en `public/productos/`. Los de **interruptores** y **focos** todavía usan un ícono decorativo como marcador visual (`src/components/ProductImage.tsx`) porque aún no se contaba con fotos reales para esas categorías.
 
-1. Coloca las imágenes en `public/productos/` (ej. `public/productos/lam-001.jpg`).
-2. Agrega un campo `image: '/productos/lam-001.jpg'` al producto en `products.ts`.
-3. Actualiza `ProductImage.tsx` para mostrar `<img src={image} />` cuando el campo exista, o pide ayuda para hacerlo.
+Para agregar una foto real a un producto:
+
+1. Coloca la imagen en `public/productos/` (ej. `public/productos/mi-producto.jpg`).
+2. Agrega el campo `image: '/productos/mi-producto.jpg'` a ese producto en `products.ts`.
+
+Si no hay campo `image`, el sitio muestra automáticamente el ícono decorativo de la categoría.
 
 ### 4. Categorías
 

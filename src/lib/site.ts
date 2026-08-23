@@ -1,9 +1,9 @@
-// ⚠️ Datos de contacto de ejemplo — reemplázalos por los reales del negocio.
+// ⚠️ Algunos datos siguen siendo de ejemplo — reemplázalos por los reales del negocio.
 export const siteConfig = {
   name: 'M&S Iluminarias',
   tagline: 'Iluminamos tus espacios, realzamos tu mundo',
-  whatsappNumber: '51999999999', // formato: código país + número, sin '+' ni espacios
-  phoneDisplay: '+51 999 999 999',
+  whatsappNumber: '51936483257', // formato: código país + número, sin '+' ni espacios
+  phoneDisplay: '+51 936 483 257',
   email: 'contacto@msiluminarias.pe',
   address: 'Av. Ejemplo 123, Lima, Perú',
   hours: 'Lun. a Sáb. 9:00am – 7:00pm',

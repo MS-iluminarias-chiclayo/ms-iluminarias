@@ -20,6 +20,8 @@ export default function ProductCard({ product }: { product: Product }) {
         <ProductImage
           category={product.category}
           palette={product.palette}
+          image={product.image}
+          alt={product.name}
           className="h-full w-full transition duration-500 group-hover:scale-105"
           iconClassName="h-16 w-16"
         />

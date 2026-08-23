@@ -63,6 +63,8 @@ export default function CartDrawer() {
                     <ProductImage
                       category={product.category}
                       palette={product.palette}
+                      image={product.image}
+                      alt={product.name}
                       className="h-16 w-16 shrink-0 rounded-lg"
                       iconClassName="h-6 w-6"
                     />
