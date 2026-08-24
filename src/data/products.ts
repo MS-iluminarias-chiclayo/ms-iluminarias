@@ -17,11 +17,8 @@ export type Product = {
   palette?: number
 }
 
-// NOTA PARA EL EQUIPO: los precios de "tomacorrientes" (línea cubull) son
-// PROVISIONALES — están pendientes de fijarse en base al precio real de
-// ilumina.pe menos 15%, tal como se pidió. Actualízalos en cuanto tengan esa
-// referencia. El resto de precios también son referenciales: ajústalos según
-// el costo real de tu proveedor y tu margen.
+// NOTA PARA EL EQUIPO: varios precios siguen siendo referenciales — ajústalos
+// según el costo real de tu proveedor y tu margen.
 
 export const products: Product[] = [
   // ---------- LÁMPARAS: colgantes LED de diseño (foto real de catálogo proveedor) ----------
@@ -599,13 +596,12 @@ export const products: Product[] = [
   },
 
   // ---------- TOMACORRIENTES: línea cubull (foto real de catálogo proveedor) ----------
-  // ⚠️ PRECIOS PROVISIONALES: pendientes de fijar según precio de ilumina.pe menos 15%.
   {
     id: 'tom-cb01',
     slug: 'tomacorriente-doble-cubull-dorado',
     name: 'Tomacorriente Doble cubull Dorado',
     category: 'tomacorrientes',
-    price: 39.9,
+    price: 9,
     sku: 'TOM-CB-01',
     description: 'Tomacorriente doble de línea premium en acabado dorado con marco color crema, para acabados elegantes.',
     features: ['Doble toma universal', 'Marco color crema', 'Acabado dorado', 'Línea premium cubull'],
@@ -616,7 +612,7 @@ export const products: Product[] = [
     slug: 'tomacorriente-doble-cubull-negro-vidrio',
     name: 'Tomacorriente Doble cubull Negro Vidrio Templado',
     category: 'tomacorrientes',
-    price: 44.9,
+    price: 9,
     sku: 'TOM-CB-02',
     badge: 'Nuevo',
     description: 'Tomacorriente doble con placa de vidrio templado negro y marco plateado, un acabado moderno y elegante.',
@@ -628,7 +624,7 @@ export const products: Product[] = [
     slug: 'tomacorriente-doble-cubull-champan-cepillado',
     name: 'Tomacorriente Doble cubull Champán Cepillado',
     category: 'tomacorrientes',
-    price: 39.9,
+    price: 9,
     sku: 'TOM-CB-03',
     description: 'Tomacorriente doble con marco metálico cepillado en tono champán, combina con acabados cálidos.',
     features: ['Doble toma universal', 'Marco metálico cepillado', 'Acabado champán', 'Línea premium cubull'],
@@ -639,7 +635,7 @@ export const products: Product[] = [
     slug: 'tomacorriente-doble-cubull-gris-cepillado',
     name: 'Tomacorriente Doble cubull Gris Cepillado',
     category: 'tomacorrientes',
-    price: 39.9,
+    price: 9,
     sku: 'TOM-CB-04',
     description: 'Tomacorriente doble con marco metálico cepillado en tono gris plata, de línea moderna y versátil.',
     features: ['Doble toma universal', 'Marco metálico cepillado', 'Acabado gris plata', 'Línea premium cubull'],
@@ -650,7 +646,7 @@ export const products: Product[] = [
     slug: 'tomacorriente-doble-cubull-madera',
     name: 'Tomacorriente Doble cubull Acabado Madera',
     category: 'tomacorrientes',
-    price: 42.9,
+    price: 9,
     sku: 'TOM-CB-05',
     badge: 'Nuevo',
     description: 'Tomacorriente doble con marco en textura de madera, ideal para ambientes rústicos o cálidos.',
@@ -662,7 +658,7 @@ export const products: Product[] = [
     slug: 'tomacorriente-doble-cubull-blanco',
     name: 'Tomacorriente Doble cubull Blanco',
     category: 'tomacorrientes',
-    price: 34.9,
+    price: 9,
     sku: 'TOM-CB-06',
     badge: 'Más vendido',
     description: 'Tomacorriente doble minimalista en acabado blanco, se integra con cualquier ambiente.',
