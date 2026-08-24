@@ -4,12 +4,9 @@ export const siteConfig = {
   tagline: 'Iluminamos tus espacios, realzamos tu mundo',
   whatsappNumber: '51936483257', // formato: código país + número, sin '+' ni espacios
   phoneDisplay: '+51 936 483 257',
-  email: 'contacto@msiluminarias.pe',
-  address: 'Av. Ejemplo 123, Lima, Perú',
+  address: 'Cal. Héroes Civiles 152, Int. 15 - Galería MYB, Cercado de Chiclayo',
   hours: 'Lun. a Sáb. 9:00am – 7:00pm',
-  instagram: 'https://instagram.com/msiluminarias',
-  facebook: 'https://facebook.com/msiluminarias',
-  tiktok: 'https://tiktok.com/@msiluminarias',
+  instagram: 'https://www.instagram.com/iluminariasms?igsi=N3NtZTJwbmU1eGRo',
 }
 
 export function formatPEN(amount: number): string {

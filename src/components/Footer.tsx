@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
+import { MapPin, MessageCircle, Phone } from 'lucide-react'
 import Logo from './Logo'
 import { categories } from '../data/categories'
 import { siteConfig } from '../lib/site'
@@ -14,14 +14,6 @@ function InstagramIcon() {
   )
 }
 
-function FacebookIcon() {
-  return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
-      <path d="M13.5 21v-7.5h2.5l.4-3H13.5V8.4c0-.87.24-1.46 1.5-1.46h1.6V4.3C16.3 4.2 15.4 4 14.3 4c-2.4 0-4 1.46-4 4.14V10.5H7.8v3h2.5V21h3.2z" />
-    </svg>
-  )
-}
-
 export default function Footer() {
   return (
     <footer className="mt-20 border-t border-white/10 bg-ink text-white/70">
@@ -32,9 +24,6 @@ export default function Footer() {
           <div className="mt-5 flex gap-3">
             <a href={siteConfig.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 hover:border-gold hover:text-gold">
               <InstagramIcon />
-            </a>
-            <a href={siteConfig.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 hover:border-gold hover:text-gold">
-              <FacebookIcon />
             </a>
             <a href={`https://wa.me/${siteConfig.whatsappNumber}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 hover:border-gold hover:text-gold">
               <MessageCircle className="h-4 w-4" />
@@ -76,10 +65,6 @@ export default function Footer() {
             <li className="flex items-start gap-2">
               <Phone className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
               <span>{siteConfig.phoneDisplay}</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <Mail className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
-              <span>{siteConfig.email}</span>
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold" />

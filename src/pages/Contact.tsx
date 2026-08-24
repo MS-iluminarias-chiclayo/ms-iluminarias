@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
+import { Clock, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { buildWhatsAppUrl, siteConfig } from '../lib/site'
 
 export default function Contact() {
@@ -89,10 +89,6 @@ export default function Contact() {
                 <span>{siteConfig.phoneDisplay}</span>
               </li>
               <li className="flex items-start gap-3">
-                <Mail className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
-                <span>{siteConfig.email}</span>
-              </li>
-              <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
                 <span>{siteConfig.address}</span>
               </li>
@@ -106,7 +102,7 @@ export default function Contact() {
           <div className="overflow-hidden rounded-2xl border border-ink/10">
             <iframe
               title="Ubicación M&S Iluminarias"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-77.05%2C-12.10%2C-77.00%2C-12.05&layer=mapnik"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-79.855%2C-6.785%2C-79.825%2C-6.760&layer=mapnik&marker=-6.7714%2C-79.8386"
               className="h-64 w-full"
               loading="lazy"
             />
